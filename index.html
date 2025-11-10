@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Emagreça com Saúde — Guia Simples</title>
+  <meta name="description" content="Dicas práticas e simples para emagrecer com saúde. Plano de exercícios, alimentação e hábitos." />
+  <style>
+    :root{--bg:#f7f9fc;--card:#fff;--accent:#2c7be5;--muted:#6b7280;--max:1000px}
+    *{box-sizing:border-box}
+    body{font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; margin:0; background:var(--bg); color:#0b1220}
+    .container{max-width:var(--max); margin:32px auto; padding:20px}
+    header{display:flex;align-items:center;justify-content:space-between;gap:16px}
+    .brand{display:flex;align-items:center;gap:12px}
+    .logo{width:52px;height:52px;border-radius:10px;background:linear-gradient(135deg,var(--accent),#0ea5a0);display:flex;align-items:center;justify-content:center;color:white;font-weight:700}
+    h1{margin:0;font-size:20px}
+    nav a{color:var(--muted);text-decoration:none;margin-left:12px;font-size:14px}
+
+    .hero{display:grid;grid-template-columns:1fr 360px;gap:24px;margin-top:20px}
+    .card{background:var(--card);padding:20px;border-radius:12px;box-shadow:0 6px 18px rgba(15,23,42,0.06)}
+    .lead{color:var(--muted);margin-top:8px}
+    .cta{display:inline-block;background:var(--accent);color:#fff;padding:10px 14px;border-radius:10px;text-decoration:none;font-weight:600;margin-top:12px}
+
+    ul.tips{padding-left:18px;margin:12px 0}
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:18px}
+    .grid .card{padding:16px}
+
+    .plan{display:flex;flex-direction:column;gap:12px}
+    .plan .item{display:flex;align-items:center;gap:12px}
+    .badge{background:#eef6ff;color:var(--accent);padding:6px 8px;border-radius:8px;font-weight:700}
+
+    footer{margin-top:28px;text-align:center;color:var(--muted);font-size:13px}
+
+    @media (max-width:880px){.hero{grid-template-columns:1fr} .grid{grid-template-columns:repeat(1,1fr)} }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand">
+        <div class="logo">E</div>
+        <div>
+          <h1>Emagreça com Saúde</h1>
+          <div class="lead">Dicas práticas e simples — comece hoje, sem drama.</div>
+        </div>
+      </div>
+      <nav>
+        <a href="#dicas">Dicas</a>
+        <a href="#plano">Plano</a>
+        <a href="#contato">Contato</a>
+      </nav>
+    </header>
+
+    <main class="hero">
+      <section class="card">
+        <h2>Perda de peso com equilíbrio</h2>
+        <p class="lead">Sem dietas malucas: foco em sono, movimento e comida de verdade. Resultado sustentável e sem sofrimento.</p>
+        <a class="cta" href="#plano">Ver plano simples</a>
+
+        <h3 style="margin-top:18px">O que você encontra aqui</h3>
+        <ul class="tips">
+          <li>Hábitos pequenos com grande impacto</li>
+          <li>Plano semanal de exercícios fácil de seguir</li>
+          <li>Dicas de refeições simples e econômicas</li>
+        </ul>
+
+        <h3 style="margin-top:12px">Princípios</h3>
+        <div style="display:flex;gap:8px;margin-top:8px">
+          <div class="badge">Consistência</div>
+          <div class="badge">Sono</div>
+          <div class="badge">Proteína</div>
+        </div>
+      </section>
+
+      <aside class="card">
+        <h3>Check rápido</h3>
+        <p class="lead">Faça este mini-check em 1 minuto:</p>
+        <ol>
+          <li>Você dorme 7-8h?</li>
+          <li>Move-se pelo menos 30 min/dia?</li>
+          <li>Inclui proteína em cada refeição?</li>
+        </ol>
+
+        <div style="margin-top:12px">
+          <strong>Ainda quer mais?</strong>
+          <p class="lead">Baixe o checklist e acompanhe seus hábitos (imprima ou salve como PDF pelo navegador).</p>
+        </div>
+      </aside>
+    </main>
+
+    <section id="dicas" class="card" style="margin-top:20px">
+      <h2>5 Dicas práticas</h2>
+      <div class="grid">
+        <div class="card">
+          <h4>1. Tenha um objetivo claro</h4>
+          <p class="lead">Defina metas pequenas e mensuráveis (ex: perder 0.5–1kg por semana).</p>
+        </div>
+        <div class="card">
+          <h4>2. Priorize proteína</h4>
+          <p class="lead">Ajuda saciedade e preserva massa magra.</p>
+        </div>
+        <div class="card">
+          <h4>3. Planeje refeições</h4>
+          <p class="lead">Cozinhar com antecedência evita escolhas impulsivas.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="plano" class="card" style="margin-top:18px">
+      <h2>Plano simples (7 dias)</h2>
+      <div class="plan">
+        <div class="item"><strong>Segunda</strong> — Caminhada 30–45 min + 2 porções de proteína magra por dia.</div>
+        <div class="item"><strong>Terça</strong> — Treino de força (20–30 min) + vegetais à vontade.</div>
+        <div class="item"><strong>Quarta</strong> — HIIT leve 15 min + foco em hidratação.</div>
+        <div class="item"><strong>Quinta</strong> — Caminhada 30 min + preparar refeições para o fim de semana.</div>
+        <div class="item"><strong>Sexta</strong> — Treino de força 20–30 min + reduzir bebidas açucaradas.</div>
+        <div class="item"><strong>Sábado</strong> — Atividade ao ar livre (bicicleta, trilha) e refeição livre controlada.</div>
+        <div class="item"><strong>Domingo</strong> — Descanso ativo: alongamento, passeios leves.</div>
+      </div>
+
+      <h3 style="margin-top:12px">Sugestão simples de refeições</h3>
+      <ul>
+        <li>Café: ovos mexidos + fruta</li>
+        <li>Almoço: salada grande + proteína (frango/peixe/legumes) + carbo integral</li>
+        <li>Jantar: sopa ou bowl com proteína e vegetais</li>
+      </ul>
+    </section>
+
+    <section id="contato" class="card" style="margin-top:18px">
+      <h2>Contato / Baixe o checklist</h2>
+      <p class="lead">Quer o checklist por e-mail? Envie uma mensagem — ou salve o site como PDF direto do navegador.</p>
+
+      <form onsubmit="contact(event)">
+        <label style="display:block;margin-bottom:8px">Seu nome (opcional)</label>
+        <input id="nome" type="text" placeholder="Ex: João" style="width:100%;padding:10px;border-radius:8px;border:1px solid #e6eef7;margin-bottom:10px">
+
+        <label style="display:block;margin-bottom:8px">Seu e-mail</label>
+        <input id="email" type="email" required placeholder="seu@exemplo.com" style="width:100%;padding:10px;border-radius:8px;border:1px solid #e6eef7;margin-bottom:10px">
+
+        <button type="submit" class="cta">Enviar checklist</button>
+      </form>
+
+      <script>
+        function contact(e){
+          e.preventDefault();
+          const nome=document.getElementById('nome').value||'Amigo';
+          const email=document.getElementById('email').value;
+          const subject=encodeURIComponent('Checklist de Emagrecimento - ' + nome);
+          const body=encodeURIComponent('Olá!\\n\\nPor favor, envie-me o checklist de emagrecimento.\\n\\nObrigado!\\n');
+          window.location.href = `mailto:${email}?subject=${subject}&body=${body}`;
+        }
+      </script>
+    </section>
+
+    <footer>
+      <div>Feito com ❤️ — use com responsabilidade. Consulte um profissional de saúde antes de iniciar qualquer dieta ou treino.</div>
+      <div style="margin-top:8px">Código: <code>index.html</code> — pronto para GitHub Pages.</div>
+    </footer>
+  </div>
+</body>
+</html>
